@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		FAD196F91DF3F2B200CA8A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD196F81DF3F2B200CA8A67 /* AppDelegate.swift */; };
-		FAD196FB1DF3F2B200CA8A67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD196FA1DF3F2B200CA8A67 /* ViewController.swift */; };
 		FAD196FE1DF3F2B200CA8A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD196FC1DF3F2B200CA8A67 /* Main.storyboard */; };
 		FAD197001DF3F2B200CA8A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD196FF1DF3F2B200CA8A67 /* Assets.xcassets */; };
 		FAD197031DF3F2B300CA8A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD197011DF3F2B300CA8A67 /* LaunchScreen.storyboard */; };
 		FAD1970E1DF3F2B300CA8A67 /* HTEST_SUNDAYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1970D1DF3F2B300CA8A67 /* HTEST_SUNDAYTests.swift */; };
 		FAD197191DF3F2B300CA8A67 /* HTEST_SUNDAYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD197181DF3F2B300CA8A67 /* HTEST_SUNDAYUITests.swift */; };
+		FAD1972F1DF3F36500CA8A67 /* AppNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1972E1DF3F36500CA8A67 /* AppNavigationControllerViewController.swift */; };
+		FAD197311DF3F40D00CA8A67 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD197301DF3F40D00CA8A67 /* SplashViewController.swift */; };
+		FAD197331DF3F5E500CA8A67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD197321DF3F5E500CA8A67 /* LoginViewController.swift */; };
+		FAD197371DF3F65300CA8A67 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD197361DF3F65300CA8A67 /* AppConstants.swift */; };
+		FAD1973A1DF3F80000CA8A67 /* RegistrationViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD197381DF3F80000CA8A67 /* RegistrationViewCotroller.swift */; };
+		FAD1973B1DF3F80000CA8A67 /* RegistrationViewCotroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD197391DF3F80000CA8A67 /* RegistrationViewCotroller.xib */; };
+		FAD1973E1DF3F91300CA8A67 /* SavedAccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1973C1DF3F91300CA8A67 /* SavedAccountListViewController.swift */; };
+		FAD1973F1DF3F91300CA8A67 /* SavedAccountListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD1973D1DF3F91300CA8A67 /* SavedAccountListViewController.xib */; };
+		FAD197431DF3F93000CA8A67 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD197411DF3F93000CA8A67 /* AccountCell.swift */; };
+		FAD197441DF3F93000CA8A67 /* AccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD197421DF3F93000CA8A67 /* AccountCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		FAD196F51DF3F2B200CA8A67 /* HTEST_SUNDAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTEST_SUNDAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD196F81DF3F2B200CA8A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAD196FA1DF3F2B200CA8A67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAD196FD1DF3F2B200CA8A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD196FF1DF3F2B200CA8A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD197021DF3F2B300CA8A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		FAD197141DF3F2B300CA8A67 /* HTEST_SUNDAYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTEST_SUNDAYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD197181DF3F2B300CA8A67 /* HTEST_SUNDAYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTEST_SUNDAYUITests.swift; sourceTree = "<group>"; };
 		FAD1971A1DF3F2B300CA8A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD1972E1DF3F36500CA8A67 /* AppNavigationControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppNavigationControllerViewController.swift; path = Classes/AppNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		FAD197301DF3F40D00CA8A67 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = Classes/SplashViewController.swift; sourceTree = "<group>"; };
+		FAD197321DF3F5E500CA8A67 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/LoginViewController.swift; sourceTree = "<group>"; };
+		FAD197361DF3F65300CA8A67 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = Classes/AppConstants.swift; sourceTree = "<group>"; };
+		FAD197381DF3F80000CA8A67 /* RegistrationViewCotroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewCotroller.swift; path = Classes/RegistrationViewCotroller.swift; sourceTree = "<group>"; };
+		FAD197391DF3F80000CA8A67 /* RegistrationViewCotroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegistrationViewCotroller.xib; path = Classes/RegistrationViewCotroller.xib; sourceTree = "<group>"; };
+		FAD1973C1DF3F91300CA8A67 /* SavedAccountListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedAccountListViewController.swift; path = Classes/SavedAccountListViewController.swift; sourceTree = "<group>"; };
+		FAD1973D1DF3F91300CA8A67 /* SavedAccountListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SavedAccountListViewController.xib; path = Classes/SavedAccountListViewController.xib; sourceTree = "<group>"; };
+		FAD197411DF3F93000CA8A67 /* AccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountCell.swift; path = Classes/AccountCell.swift; sourceTree = "<group>"; };
+		FAD197421DF3F93000CA8A67 /* AccountCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AccountCell.xib; path = Classes/AccountCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,9 @@
 		FAD196F71DF3F2B200CA8A67 /* HTEST_SUNDAY */ = {
 			isa = PBXGroup;
 			children = (
-				FAD196F81DF3F2B200CA8A67 /* AppDelegate.swift */,
-				FAD196FA1DF3F2B200CA8A67 /* ViewController.swift */,
-				FAD196FC1DF3F2B200CA8A67 /* Main.storyboard */,
-				FAD196FF1DF3F2B200CA8A67 /* Assets.xcassets */,
-				FAD197011DF3F2B300CA8A67 /* LaunchScreen.storyboard */,
-				FAD197041DF3F2B300CA8A67 /* Info.plist */,
+				FAD1972C1DF3F32900CA8A67 /* Utils_IfANY */,
+				FAD197271DF3F2D100CA8A67 /* Resources */,
+				FAD197261DF3F2CA00CA8A67 /* Classes */,
 			);
 			path = HTEST_SUNDAY;
 			sourceTree = "<group>";
@@ -123,6 +138,90 @@
 				FAD1971A1DF3F2B300CA8A67 /* Info.plist */,
 			);
 			path = HTEST_SUNDAYUITests;
+			sourceTree = "<group>";
+		};
+		FAD197261DF3F2CA00CA8A67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1972D1DF3F33A00CA8A67 /* MainNavigation */,
+				FAD1972B1DF3F31200CA8A67 /* Saved Accounts */,
+				FAD1972A1DF3F30B00CA8A67 /* Registration */,
+				FAD197291DF3F30200CA8A67 /* Logn */,
+				FAD197281DF3F2F800CA8A67 /* Splash_OnlyOnce */,
+				FAD196F81DF3F2B200CA8A67 /* AppDelegate.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FAD197271DF3F2D100CA8A67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD196FC1DF3F2B200CA8A67 /* Main.storyboard */,
+				FAD196FF1DF3F2B200CA8A67 /* Assets.xcassets */,
+				FAD197011DF3F2B300CA8A67 /* LaunchScreen.storyboard */,
+				FAD197041DF3F2B300CA8A67 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FAD197281DF3F2F800CA8A67 /* Splash_OnlyOnce */ = {
+			isa = PBXGroup;
+			children = (
+				FAD197301DF3F40D00CA8A67 /* SplashViewController.swift */,
+			);
+			name = Splash_OnlyOnce;
+			sourceTree = "<group>";
+		};
+		FAD197291DF3F30200CA8A67 /* Logn */ = {
+			isa = PBXGroup;
+			children = (
+				FAD197321DF3F5E500CA8A67 /* LoginViewController.swift */,
+			);
+			name = Logn;
+			sourceTree = "<group>";
+		};
+		FAD1972A1DF3F30B00CA8A67 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				FAD197381DF3F80000CA8A67 /* RegistrationViewCotroller.swift */,
+				FAD197391DF3F80000CA8A67 /* RegistrationViewCotroller.xib */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		FAD1972B1DF3F31200CA8A67 /* Saved Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				FAD197401DF3F91700CA8A67 /* Views */,
+				FAD1973C1DF3F91300CA8A67 /* SavedAccountListViewController.swift */,
+				FAD1973D1DF3F91300CA8A67 /* SavedAccountListViewController.xib */,
+			);
+			name = "Saved Accounts";
+			sourceTree = "<group>";
+		};
+		FAD1972C1DF3F32900CA8A67 /* Utils_IfANY */ = {
+			isa = PBXGroup;
+			children = (
+				FAD197361DF3F65300CA8A67 /* AppConstants.swift */,
+			);
+			name = Utils_IfANY;
+			sourceTree = "<group>";
+		};
+		FAD1972D1DF3F33A00CA8A67 /* MainNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1972E1DF3F36500CA8A67 /* AppNavigationControllerViewController.swift */,
+			);
+			name = MainNavigation;
+			sourceTree = "<group>";
+		};
+		FAD197401DF3F91700CA8A67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAD197411DF3F93000CA8A67 /* AccountCell.swift */,
+				FAD197421DF3F93000CA8A67 /* AccountCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD1973F1DF3F91300CA8A67 /* SavedAccountListViewController.xib in Resources */,
 				FAD197031DF3F2B300CA8A67 /* LaunchScreen.storyboard in Resources */,
 				FAD197001DF3F2B200CA8A67 /* Assets.xcassets in Resources */,
+				FAD1973B1DF3F80000CA8A67 /* RegistrationViewCotroller.xib in Resources */,
 				FAD196FE1DF3F2B200CA8A67 /* Main.storyboard in Resources */,
+				FAD197441DF3F93000CA8A67 /* AccountCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +361,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD196FB1DF3F2B200CA8A67 /* ViewController.swift in Sources */,
+				FAD197331DF3F5E500CA8A67 /* LoginViewController.swift in Sources */,
+				FAD197431DF3F93000CA8A67 /* AccountCell.swift in Sources */,
+				FAD197311DF3F40D00CA8A67 /* SplashViewController.swift in Sources */,
+				FAD1972F1DF3F36500CA8A67 /* AppNavigationControllerViewController.swift in Sources */,
 				FAD196F91DF3F2B200CA8A67 /* AppDelegate.swift in Sources */,
+				FAD1973E1DF3F91300CA8A67 /* SavedAccountListViewController.swift in Sources */,
+				FAD1973A1DF3F80000CA8A67 /* RegistrationViewCotroller.swift in Sources */,
+				FAD197371DF3F65300CA8A67 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

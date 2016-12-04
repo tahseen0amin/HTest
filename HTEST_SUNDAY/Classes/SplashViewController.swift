@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SplashViewController.swift
 //  HTEST_SUNDAY
 //
 //  Created by Taseen Amin on 04/12/2016.
@@ -8,18 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplashViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func SkipToLogin(_ sender: Any) {
+        (self.navigationController as! AppNavigationControllerViewController).enterLoginScreen()
+    }
 
 }
-
